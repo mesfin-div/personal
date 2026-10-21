@@ -1,0 +1,378 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mesfin's personal portfolio website. Computer Science student at Wachemo University.">
+    <meta name="author" content="Mesfin">
+    <title>Mesfin | Computer Science Student</title>
+    <link rel="stylesheet" href="personal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Mesfin<span>.</span><img src="images/fun.png" alt="" width="50px" height="50px"></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home / Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                    <p class="intro">Hello, my name is</p>
+                    <h1>Mesfin <span>Dukamo</span></h1>
+
+                    <h2>I'm a <span id="typing-text">Computer Science Student</span></h2>
+
+                    <p class="hero-description">
+                        I am a fourth-year Computer Science student at Wachemo
+                        University, passionate about technology, software
+                        development, and building useful digital solutions.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Explore My Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+
+                    <div class="social-links">
+                        <!-- Replace # with your actual profile URLs -->
+                        <a href="#" target="_blank" rel="noopener noreferrer"
+                           aria-label="GitHub profile">GitHub ↗</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"
+                           aria-label="LinkedIn profile">LinkedIn ↗</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-circle">
+                            <span><img src="images/mes (3).jfif" alt="" width="150px" height="150px" style="border-radius: 70px;"></span>
+                        </div>
+                        <h3>Mesfin Dukamo</h3>
+                        <p>Computer Science Student</p>
+                        <div class="profile-divider"></div>
+                        <p class="university">Wachemo University</p>
+                        <span class="status"><span></span> Learning & Building</span>
+                    </div>
+                    <div class="floating-badge badge-top">💻 Web Development</div>
+                    <div class="floating-badge badge-bottom">🚀 Future Software Developer</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>Learn more about my background and interests.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon">👨‍🎓</div>
+                        <h3>Who I Am</h3>
+                        <p>
+                            My name is Mesfin Dukamo. I am a fourth-year
+                            Computer Science student at Wachemo University.
+                            I am interested in software development, web
+                            technologies, databases, and problem-solving.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">🎯</div>
+                        <h3>My Goal</h3>
+                        <p>
+                            My goal is to strengthen my programming skills,
+                            develop reliable and user-friendly applications,
+                            and grow into a professional software developer.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">💡</div>
+                        <h3>My Interests</h3>
+                        <p>
+                            I enjoy learning web development, designing
+                            software systems, working with databases,
+                            exploring new technologies, and creating
+                            solutions to real-world problems.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-summary">
+                    <div>
+                        <span class="summary-number">4th</span>
+                        <span class="summary-label">Year Student</span>
+                    </div>
+                    <div>
+                        <span class="summary-number">CS</span>
+                        <span class="summary-label">Field of Study</span>
+                    </div>
+                    <div>
+                        <span class="summary-number">∞</span>
+                        <span class="summary-label">Learning Mindset</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I AM LEARNING</p>
+                    <h2>My <span>Skills</span></h2>
+                    <p>Technologies and tools I am developing experience with.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-icon">🌐</span>
+                        <h3>HTML</h3>
+                        <p>Web page structure</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">🎨</span>
+                        <h3>CSS</h3>
+                        <p>Styling and responsive layouts</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">⚡</span>
+                        <h3>JavaScript</h3>
+                        <p>Interactive web experiences</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">☕</span>
+                        <h3>Java</h3>
+                        <p>Object-oriented programming</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">🗄️</span>
+                        <h3>SQL / Databases</h3>
+                        <p>Data storage and management</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <span class="skill-icon">🛠️</span>
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and collaboration</p>
+                    </article>
+                </div>
+                <p class="small-note">
+                    Edit this section to match your actual skills and experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY WORK</p>
+                    <h2>My <span>Projects</span></h2>
+                    <p>Academic and personal projects I have worked on or plan to develop.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-emoji">🎓</span>
+                        </div>
+                        <h3>Smart Campus Resource Sharing</h3>
+                        <p>
+                            A proposed university platform for sharing resources,
+                            exchanging student skills, and reporting or recovering
+                            lost and found items.
+                        </p>
+                        <div class="tags">
+                            <span>Web Development</span>
+                            <span>Database</span>
+                        </div>
+                        <a href="#contact" class="project-link">Discuss this project ↗</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-emoji">🏥</span>
+                        </div>
+                        <h3>Clinical Management System</h3>
+                        <p>
+                            An academic application concept for managing
+                            patient information, appointments, medical records,
+                            and user access.
+                        </p>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>SQLite</span>
+                        </div>
+                        <a href="#contact" class="project-link">Discuss this project ↗</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-number">03</span>
+                            <span class="project-emoji">🚦</span>
+                        </div>
+                        <h3>Virtual Training Environment</h3>
+                        <p>
+                            A computer graphics project concept simulating a
+                            road accident scenario with a vehicle, pedestrian,
+                            traffic lights, and collision detection.
+                        </p>
+                        <div class="tags">
+                            <span>C++</span>
+                            <span>OpenGL</span>
+                        </div>
+                        <a href="#contact" class="project-link">Discuss this project ↗</a>
+                    </article>
+                </div>
+
+                <p class="small-note">
+                    These cards are editable examples based on your project topics.
+                    Keep only projects you have actually worked on, and describe
+                    their current status honestly.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section education" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <div>
+                        <span class="education-status">CURRENTLY STUDYING</span>
+                        <h3>Bachelor's Degree Studies in Computer Science</h3>
+                        <h4>Wachemo University</h4>
+                        <p>Fourth-year student</p>
+                        <p>
+                            Studying computer science, programming, software
+                            development, algorithms, databases, and related
+                            computing subjects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span>Me</span></h2>
+                    <p>Have a project idea or an opportunity? Feel free to connect.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>
+                            I welcome opportunities to learn, collaborate,
+                            build projects, and connect with other developers.
+                        </p>
+
+                        <div class="contact-item">
+                            <span>✉️</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>yayamanyayatour1@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>💻</span>
+                            <div>
+                                <strong>GitHub</strong>
+                                <p>https://github.com/mesfin-div/mesfin-divk</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <div>
+                                <strong>University</strong>
+                                <p>Wachemo University, Ethiopia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5"
+                                  placeholder="Write your message..." required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Prepare Email Message ↗
+                        </button>
+
+                        <p class="form-note" id="form-note" aria-live="polite">
+                            This form opens your email application; it does not
+                            send messages directly from the website.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">Mesfin<span></span></a>
+            <p>Designed and built by Mesfin Dukamo.</p>
+            <p>© <span id="year"></span> Mesfin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top"
+            aria-label="Back to top">↑</button>
+
+    <script src="personal.js"></script>
+</body>
+</html>
